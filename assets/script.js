@@ -1,19 +1,34 @@
 // Assignment code here
 
 var passwordLength = [];
-console.log(passwordLength);
+console.log(passwordLength.length);
+for(var i=0; i <passwordLength.length; i++) {
+  console.log(passwordLength[i]);
+}
 
 var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
-console.log(lowerCase);
+console.log(lowerCase.length);
+for(var i=0; i <lowerCase.length; i++) {
+  console.log(lowerCase[i]);
+}
 
 var upperCase = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-console.log(upperCase);
+console.log(upperCase.length);
+for(var i=0; i <upperCase.length; i++) {
+  console.log(upperCase[i]);
+}
 
 var passwordNumeric = ['1','2','3','4','5','6','7','8','9'];
-console.log(passwordNumeric);
+console.log(passwordNumeric.length);
+for(var i=0; i <passwordNumeric.length; i++) {
+  console.log(passwordNumeric[i]);
+}
 
 var passwordCharacters = ['!','$','%','&','*',];
-console.log(passwordCharacters);
+console.log(passwordCharacters.length);
+for(var i=0; i <passwordCharacters.length; i++) {
+  console.log(passwordCharacters[i]);
+}
 
 function generatePassword () {
   var passwordLength = window.prompt("How many characters do you want your password to be? (Enter a number between 8 - 128)");
